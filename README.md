@@ -1,7 +1,7 @@
 # A Simpler LaTeX Syntax Highlighting for Vim
 
 Since most LaTeX syntax highlight in Vim are way too complicated (causing Vim
-to be extreme slow on large TeX files) and unnecessarily colourful, I created
+to be extremely slow on large TeX files) and unnecessarily colourful, I created
 my own LaTeX syntax highlight file with the aim of being _simple_ and _readable_.
 
 Here is a sample screen shot. 
