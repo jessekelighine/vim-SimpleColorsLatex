@@ -22,7 +22,7 @@ I use [miramare](https://github.com/franbach/miramare).
 You can use `:help group` to check for the highlighting group and change 
 the colours on your own.
 
-## How to use as `ctx`?
+## How to use as `ctx` filetype?
 
 Simple put the `ctx.vim` file into `/.vim/syntax/` directory and you are good
 to go.  However, notice that special filetype `ctx` since I don't want to mess
@@ -39,7 +39,7 @@ augroup END
 ```
 just to supply this new `ctx` filetype.
 
-## How to use as `tex`?
+## How to use as `tex` filetype?
 
 If you wish to use `tex` filetype, simply change the file name `ctx.vim` to
 `tex.vim` and change the last line in `ctx.vim` to
