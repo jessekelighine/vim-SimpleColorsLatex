@@ -24,7 +24,7 @@ the colours on your own.
 
 ## How to use as `tex` filetype?
 
-If you wish to use `tex` filetype, put the file `ctx.vim` to `.vim/syntax`
+If you wish to use `tex` filetype, put the file `ctx.vim` to `~/.vim/syntax`
 and change the file name `ctx.vim` to `tex.vim`.
 Then change the last line of the file to:
 ```{vi}
@@ -34,7 +34,7 @@ and you are good to go.
 
 ## How to use as `ctx` filetype?
 
-Simple put the `ctx.vim` file into `/.vim/syntax` directory and you are good
+Simple put the `ctx.vim` file into `~/.vim/syntax` directory and you are good
 to go.  However, notice that special filetype `ctx` since I don't want to mess
 with `tex` filetype too much and I dislike the auto-indent in `tex` files.
 Thus, I have this line in my `.vimrc`
