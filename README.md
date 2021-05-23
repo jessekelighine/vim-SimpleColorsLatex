@@ -27,7 +27,7 @@ the colours on your own.
 If you wish to use `tex` filetype, put the file `ctx.vim` to `~/.vim/syntax`
 and change the file name `ctx.vim` to `tex.vim`.
 Then change the last line of the file to:
-```{vi}
+```vim
 let b:current_syntax = "tex"
 ```
 and you are good to go.
@@ -38,11 +38,11 @@ Simple put the `ctx.vim` file into `~/.vim/syntax` directory and you are good
 to go.  However, notice that special filetype `ctx` since I don't want to mess
 with `tex` filetype too much and I dislike the auto-indent in `tex` files.
 Thus, I have this line in my `.vimrc`
-```{vi}
+```vim
 autocmd BufNewFile,BufRead *.ctx,*.tex setl filetype=ctx
 ```
 and added a file at `~/.vim/filetype.vim` which reads
-```{vi}
+```vim
 augroup filetypedetect
 	au! BufRead,BufNewFile *.ctx		setfiletype ctx
 augroup END
