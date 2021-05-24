@@ -15,6 +15,10 @@ Here is a sample screen shot with syntax highlighting for *TikZ*:
 
 ![demo tikz](tikz_demo.png)
 
+# Usage
+
+Simply put the file `tex.vim` in the directory `~/.vim/syntax/`.
+
 # General Syntax Highlighting
 
 As shown in the sample above.
