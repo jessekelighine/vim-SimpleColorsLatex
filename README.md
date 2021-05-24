@@ -1,4 +1,4 @@
-# vim-SimpleColorsLatex : A Simpler LaTeX Syntax Highlighting for Vim
+# vim-SimpleColorsLatex: A Simpler Syntax Highlighting for LaTeX
 
 Since most LaTeX syntax highlight in Vim are way too complicated (causing Vim
 to be extremely slow on large TeX files) and unnecessarily colourful, I created
@@ -75,7 +75,7 @@ I only matched one group for *beamer* syntax: the keyword `frame`.
 
 Similar to *TikZ* highlighting, one can modify the above function to toggle
 beamer specific syntax highlighting.
-Here is the function I have in my $ftplugin/tex.vim$:
+Here is the function I have in my `~/.vim/ftplugin/tex.vim`:
 
 ```vim
 """ toggles Beamer syntax highlighting
