@@ -23,14 +23,14 @@ syntax match TexIgnore    "\\\(%\|{\|}\|\$\|#\|&\|!\|\^\|,\|;\)"
 syntax region TexMaths     matchgroup=TexDollar   start="\$" end="\$"
 	\ contains=@NoSpell,TexCommand,TexIgnore,TexSubLR
 
-syntax match TIKZA "\s\(node\|coordinate\|rectangle\|grid\|circle\|pic\|arc\|to\|plot\)"
-syntax match TIKZA "\s\(--\||-\|-|\|\.\.\)"
-syntax match TIKZB "\s\(child\|at\|controls\)"
-syntax match TIKZB "intersection"
-syntax match TIKZB "\((\$\|\$)\)"
-syntax match TIKZC "label"
-syntax match TIKZC "\s\(let\|in\)"
-syntax match TIKZC "!"
+" syntax match TIKZA "\s\(node\|coordinate\|rectangle\|grid\|circle\|pic\|arc\|to\|plot\)"
+" syntax match TIKZA "\s\(--\||-\|-|\|\.\.\)"
+" syntax match TIKZB "\s\(child\|at\|controls\)"
+" syntax match TIKZB "intersection"
+" syntax match TIKZB "\((\$\|\$)\)"
+" syntax match TIKZC "label"
+" syntax match TIKZC "\s\(let\|in\)"
+" syntax match TIKZC "!"
 
 " syntax match BeamerFrame "frame"
 
@@ -53,6 +53,7 @@ highlight def link TexIgnore    Yellow
 " highlight def link TIKZA         Orange
 " highlight def link TIKZB         Yellow
 " highlight def link TIKZC         Blue
+
 " highlight def link BeamerFrame   Blue
 
 let b:current_syntax = "tex"
