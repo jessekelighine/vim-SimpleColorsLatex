@@ -1,3 +1,5 @@
+**Note**: This repo is archived, see [`jessekelighine/vim-bunttex`](https://github.com/jessekelighine/vim-bunttex) for a newer version.
+
 # vim-SimpleColorsLatex: A Simpler Syntax Highlighting for LaTeX
 
 Since most LaTeX syntax highlight in Vim are way too complicated (causing Vim
